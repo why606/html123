@@ -1,0 +1,84 @@
+.register-container {
+    max-width: 500px;
+    margin: 30px auto; /* 减少上边距 */
+    padding: 20px 15px; /* 手机端减少内边距 */
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 90%; /* 手机端占90%宽度 */
+}
+
+.register-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px; /* 减少下边距 */
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* 减少间距 */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px; /* 手机端字体 */
+}
+
+.form-group input:focus {
+    border-color: #3498db;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.register-btn:hover {
+    background-color: #27ae60;
+}
+
+.agree-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    font-size: 13px; /* 手机端小字体 */
+}
+
+.agree-checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.protocol-link {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.switch-page {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* 手机端无需额外媒体查询，因为已经用了width:90%和适配字体 */
